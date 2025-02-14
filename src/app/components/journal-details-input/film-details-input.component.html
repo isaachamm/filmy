@@ -1,0 +1,67 @@
+<form class="film-details">
+
+  <p class="center-item">Film Details Input</p>
+
+  <label for="camera-select">Camera: </label>
+  <select name="camera-select" id="camera-select">
+    <option value="">--</option>
+    <option value="pentax">Pentax K1000</option>
+    <option value="konica">Konica</option>
+  </select>
+
+
+  <label for="film-type">Film Type & ISO: </label>
+  <input type="text" id="film-type" name="film-type" />
+
+
+  <label for="aperture-select">Aperture: </label>
+  <select name="aperture-select" id="aperture-select">
+    <option value="">--</option>
+    <option value="1">f/1</option>
+    <option value="1.4">f/1.4</option>
+    <option value="2">f/2</option>
+    <option value="2.8">f/2.8</option>
+    <option value="4">f/4</option>
+    <option value="5.6">f/5.6</option>
+    <option value="8">f/8</option>
+    <option value="11">f/11</option>
+    <option value="16">f/16</option>
+    <option value="22">f/22</option>
+  </select>
+
+
+  <label for="shutter-speed-select">Shutter Speed: </label>
+  <select name="shutter-speed-select" id="shutter-speed-select">
+    <option value="">--</option>
+    <option value="1000">1/1000</option>
+    <option value="500">1/500</option>
+    <option value="250">1/250</option>
+    <option value="125">1/125</option>
+    <option value="60">1/60</option>
+    <option value="30">1/30</option>
+    <option value="15">1/15</option>
+    <option value="10">1/10</option>
+    <option value="5">1/5</option>
+    <option value="2">1/2</option>
+    <option value="1">1</option>
+    <option value="other">> 1</option>
+  </select>
+
+
+  <label for="date-captured">Date Captured: </label>
+  <input type="date" id="date-captured" name="date-captured" />
+
+
+  <label for="date-received">Date received: </label>
+  <input type="date" id="date-received" name="date-received" />
+
+
+  <label for="description">Description: </label>
+  <textarea id="description" name="description"></textarea>
+
+  <label for="image-input">Image: </label>
+  <input type="file" />
+
+  <button class="center-item">submit</button>
+
+</form>
